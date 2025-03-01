@@ -1,0 +1,142 @@
+/* главное */
+body {
+  background-color: #3387d6;
+  margin: 0;
+  margin-top: 45px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: #324b57;
+}
+
+a:visited {
+  color: #324b57;
+}
+
+body h1 {
+  text-align: center;
+}
+
+/* общие значения */
+.VseVse {
+  background: #ffffff;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 90%;
+  border-radius: 28px;
+  box-shadow: 5px 5px 40px rgb(0, 0, 0);
+}
+
+/* первая страница */
+.imgCat {
+  width: 350px;
+  border-radius: 28px;
+  margin-left: 18px;
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+
+.Info1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* вторая страница */
+
+.knopki {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+
+.BezSoderchaniya h2 {
+  text-align: center;
+}
+
+.sodershanie {
+  background-color: rgba(148, 191, 255, 0.493);
+  border-radius: 28px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container6 {
+  padding-bottom: 20px;
+}
+
+.container1 {
+  display: flex;
+  padding-right: 10px;
+}
+
+.container1 li {
+  background-repeat: no-repeat;
+  padding: 0 0 15px 30px;
+  max-width: 90%;
+  line-height: 26px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgZmlsbD0iI2Y0MDkwOSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4yIiBiYXNlUHJvZmlsZT0idGlueSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNMzYuMjUsMzVjNi4yMDMsMCwxMS4yNS01LjYwNywxMS4yNS0xMi41UzQyLjQ1MywxMCwzNi4yNSwxMFMyNSwxNS42MDcsMjUsMjIuNVMzMC4wNDcsMzUsMzYuMjUsMzV6IE0zNi4yNSwxNSAgYzMuNDQ2LDAsNi4yNSwzLjM2NCw2LjI1LDcuNVMzOS42OTYsMzAsMzYuMjUsMzBTMzAsMjYuNjM2LDMwLDIyLjVTMzIuODA0LDE1LDM2LjI1LDE1eiIvPjxwYXRoIGQ9Ik0xNi4yNSw1NWM2LjIwMywwLDExLjI1LTUuNjA3LDExLjI1LTEyLjVTMjIuNDUzLDMwLDE2LjI1LDMwUzUsMzUuNjA3LDUsNDIuNVMxMC4wNDcsNTUsMTYuMjUsNTV6IE0xNi4yNSwzNSAgYzMuNDQ2LDAsNi4yNSwzLjM2NCw2LjI1LDcuNVMxOS42OTYsNTAsMTYuMjUsNTBTMTAsNDYuNjM2LDEwLDQyLjVTMTIuODA0LDM1LDE2LjI1LDM1eiIvPjxwYXRoIGQ9Ik04My43NSwzMGMtNi4yMDMsMC0xMS4yNSw1LjYwNy0xMS4yNSwxMi41Uzc3LjU0Nyw1NSw4My43NSw1NVM5NSw0OS4zOTMsOTUsNDIuNVM4OS45NTMsMzAsODMuNzUsMzB6IE04My43NSw1MCAgYy0zLjQ0NiwwLTYuMjUtMy4zNjQtNi4yNS03LjVzMi44MDQtNy41LDYuMjUtNy41UzkwLDM4LjM2NCw5MCw0Mi41Uzg3LjE5Niw1MCw4My43NSw1MHoiLz48cGF0aCBkPSJNNjMuNzUsMzVDNjkuOTUzLDM1LDc1LDI5LjM5Myw3NSwyMi41UzY5Ljk1MywxMCw2My43NSwxMFM1Mi41LDE1LjYwNyw1Mi41LDIyLjVTNTcuNTQ3LDM1LDYzLjc1LDM1eiBNNjMuNzUsMTUgIGMzLjQ0NiwwLDYuMjUsMy4zNjQsNi4yNSw3LjVTNjcuMTk2LDMwLDYzLjc1LDMwcy02LjI1LTMuMzY0LTYuMjUtNy41UzYwLjMwNCwxNSw2My43NSwxNXoiLz48cGF0aCBkPSJNMzQuNDQzLDQ2Ljk0NkwyNC4wNTYsNTkuOTNDMjEuNDMsNjMuMjEyLDIwLDY3LjI5LDIwLDcxLjQ5MkMyMCw4MS43MTQsMjguMjg2LDkwLDM4LjUwOCw5MGgyMi45ODQgIEM3MS43MTQsOTAsODAsODEuNzE0LDgwLDcxLjQ5MmMwLTQuMjAzLTEuNDMtOC4yOC00LjA1Ni0xMS41NjJMNjUuNTU3LDQ2Ljk0NkM2Mi4wNDUsNDIuNTU2LDU2LjcyNyw0MCw1MS4xMDUsNDBoLTIuMjA5ICBDNDMuMjczLDQwLDM3Ljk1NSw0Mi41NTYsMzQuNDQzLDQ2Ljk0NnogTTQ4Ljg5NSw0Ny41aDIuMjA5YzMuMzYyLDAsNi40OTUsMS41MDYsOC41OTYsNC4xMzFsMTAuMzg4LDEyLjk4NCAgYzEuNTU2LDEuOTQ0LDIuNDEyLDQuMzg3LDIuNDEyLDYuODc3YzAsNi4wNy00LjkzOCwxMS4wMDgtMTEuMDA4LDExLjAwOEgzOC41MDhjLTYuMDcsMC0xMS4wMDgtNC45MzgtMTEuMDA4LTExLjAwOCAgYzAtMi40OSwwLjg1Ny00LjkzMiwyLjQxMi02Ljg3N0w0MC4zLDUxLjYzMUM0Mi40LDQ5LjAwNiw0NS41MzMsNDcuNSw0OC44OTUsNDcuNXoiLz48L3N2Zz4=);
+  background-size: 24px;
+  list-style-type: none;
+}
+
+.container2 li {
+  background-repeat: no-repeat;
+  padding: 0 0 15px 30px;
+  max-width: 90%;
+  line-height: 26px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgZmlsbD0iI2Y0MDkwOSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4yIiBiYXNlUHJvZmlsZT0idGlueSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNMzYuMjUsMzVjNi4yMDMsMCwxMS4yNS01LjYwNywxMS4yNS0xMi41UzQyLjQ1MywxMCwzNi4yNSwxMFMyNSwxNS42MDcsMjUsMjIuNVMzMC4wNDcsMzUsMzYuMjUsMzV6IE0zNi4yNSwxNSAgYzMuNDQ2LDAsNi4yNSwzLjM2NCw2LjI1LDcuNVMzOS42OTYsMzAsMzYuMjUsMzBTMzAsMjYuNjM2LDMwLDIyLjVTMzIuODA0LDE1LDM2LjI1LDE1eiIvPjxwYXRoIGQ9Ik0xNi4yNSw1NWM2LjIwMywwLDExLjI1LTUuNjA3LDExLjI1LTEyLjVTMjIuNDUzLDMwLDE2LjI1LDMwUzUsMzUuNjA3LDUsNDIuNVMxMC4wNDcsNTUsMTYuMjUsNTV6IE0xNi4yNSwzNSAgYzMuNDQ2LDAsNi4yNSwzLjM2NCw2LjI1LDcuNVMxOS42OTYsNTAsMTYuMjUsNTBTMTAsNDYuNjM2LDEwLDQyLjVTMTIuODA0LDM1LDE2LjI1LDM1eiIvPjxwYXRoIGQ9Ik04My43NSwzMGMtNi4yMDMsMC0xMS4yNSw1LjYwNy0xMS4yNSwxMi41Uzc3LjU0Nyw1NSw4My43NSw1NVM5NSw0OS4zOTMsOTUsNDIuNVM4OS45NTMsMzAsODMuNzUsMzB6IE04My43NSw1MCAgYy0zLjQ0NiwwLTYuMjUtMy4zNjQtNi4yNS03LjVzMi44MDQtNy41LDYuMjUtNy41UzkwLDM4LjM2NCw5MCw0Mi41Uzg3LjE5Niw1MCw4My43NSw1MHoiLz48cGF0aCBkPSJNNjMuNzUsMzVDNjkuOTUzLDM1LDc1LDI5LjM5Myw3NSwyMi41UzY5Ljk1MywxMCw2My43NSwxMFM1Mi41LDE1LjYwNyw1Mi41LDIyLjVTNTcuNTQ3LDM1LDYzLjc1LDM1eiBNNjMuNzUsMTUgIGMzLjQ0NiwwLDYuMjUsMy4zNjQsNi4yNSw3LjVTNjcuMTk2LDMwLDYzLjc1LDMwcy02LjI1LTMuMzY0LTYuMjUtNy41UzYwLjMwNCwxNSw2My43NSwxNXoiLz48cGF0aCBkPSJNMzQuNDQzLDQ2Ljk0NkwyNC4wNTYsNTkuOTNDMjEuNDMsNjMuMjEyLDIwLDY3LjI5LDIwLDcxLjQ5MkMyMCw4MS43MTQsMjguMjg2LDkwLDM4LjUwOCw5MGgyMi45ODQgIEM3MS43MTQsOTAsODAsODEuNzE0LDgwLDcxLjQ5MmMwLTQuMjAzLTEuNDMtOC4yOC00LjA1Ni0xMS41NjJMNjUuNTU3LDQ2Ljk0NkM2Mi4wNDUsNDIuNTU2LDU2LjcyNyw0MCw1MS4xMDUsNDBoLTIuMjA5ICBDNDMuMjczLDQwLDM3Ljk1NSw0Mi41NTYsMzQuNDQzLDQ2Ljk0NnogTTQ4Ljg5NSw0Ny41aDIuMjA5YzMuMzYyLDAsNi40OTUsMS41MDYsOC41OTYsNC4xMzFsMTAuMzg4LDEyLjk4NCAgYzEuNTU2LDEuOTQ0LDIuNDEyLDQuMzg3LDIuNDEyLDYuODc3YzAsNi4wNy00LjkzOCwxMS4wMDgtMTEuMDA4LDExLjAwOEgzOC41MDhjLTYuMDcsMC0xMS4wMDgtNC45MzgtMTEuMDA4LTExLjAwOCAgYzAtMi40OSwwLjg1Ny00LjkzMiwyLjQxMi02Ljg3N0w0MC4zLDUxLjYzMUM0Mi40LDQ5LjAwNiw0NS41MzMsNDcuNSw0OC44OTUsNDcuNXoiLz48L3N2Zz4=);
+  background-size: 24px;
+  list-style-type: none;
+}
+
+.container2-2 {
+  display: flex;
+}
+
+.container2-2 image {
+  width: 300px;
+}
+
+.imgCat-250 {
+  width: 250px;
+  border-radius: 28px;
+}
+
+.imgCat-300 {
+  width: 300px;
+  border-radius: 28px;
+  margin: 5px;
+  margin-left: auto;
+  height: auto;
+}
+
+.imgCat-500 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 80%;
+  max-height: 500px;
+  border-radius: 28px;
+}
