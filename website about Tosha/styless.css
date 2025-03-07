@@ -1,8 +1,15 @@
 /* главное */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   background-color: #3387d6;
-  margin: 0;
+
   margin-top: 45px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
 }
 
 a {
@@ -129,6 +136,8 @@ body h1 {
   margin: 5px;
   margin-left: auto;
   height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .imgCat-500 {
